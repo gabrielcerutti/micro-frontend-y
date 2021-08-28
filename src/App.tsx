@@ -7,7 +7,7 @@ import PageTwo from './pages/PageTwo';
 
 const useStyles = makeStyles({
   root: {
-    padding: 10,
+    padding: 20,
   },
 });
 
@@ -24,7 +24,7 @@ function App(props: { basePath: string; host: string }) {
   return (
     <div className={classes.root}>
       <Routes basename={props.basePath}>
-        <Route path="/" element={<HomePage></HomePage>} />
+        <Route path="/" element={<HomePage basePath={basePath}></HomePage>} />
         <Route path="pageone" element={<PageOne basePath={basePath}></PageOne>} />
         <Route path="pagetwo" element={<PageTwo basePath={basePath}></PageTwo>} />
       </Routes>
