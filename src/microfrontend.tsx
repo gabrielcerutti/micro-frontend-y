@@ -9,6 +9,7 @@ export const render = (containerId: string, history: any, data: any) => {
   if (!container) return;
   ReactDOM.render(
     <React.StrictMode>
+      {/* HashRouter is used here in replacement of BrowserRouter because GitHub doesn't support browser history */}
       <HashRouter>
         <App {...data} />
       </HashRouter>
