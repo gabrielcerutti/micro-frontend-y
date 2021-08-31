@@ -99,7 +99,7 @@ const CardDemo = (props: { basePath: string | undefined }) => {
             Word of the Day
           </Typography>
           <Typography variant="h5" component="h2">
-            dic{bull}ta{bull}tor{bull}
+            dic{bull}ta{bull}tor
           </Typography>
           <Typography className={classes.pos} color="textSecondary">
             noun
@@ -137,7 +137,7 @@ const CardDemo = (props: { basePath: string | undefined }) => {
         <CardMedia
           className={playerClasses.cover}
           image={`${props.basePath !== undefined ? props.basePath : ''}${hastaLuego}`}
-          title="Live from space album cover"
+          title="Hasta Luego album cover"
         />
       </Card>
     </div>
