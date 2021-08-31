@@ -1,12 +1,12 @@
 {
   "files": {
-    "main.js": "/micro-frontend-y/static/js/main.d9e7bc14.js",
-    "main.js.map": "/micro-frontend-y/static/js/main.d9e7bc14.js.map",
+    "main.js": "/micro-frontend-y/static/js/main.028e875a.js",
+    "main.js.map": "/micro-frontend-y/static/js/main.028e875a.js.map",
     "index.html": "/micro-frontend-y/index.html",
-    "static/js/main.d9e7bc14.js.LICENSE.txt": "/micro-frontend-y/static/js/main.d9e7bc14.js.LICENSE.txt",
+    "static/js/main.028e875a.js.LICENSE.txt": "/micro-frontend-y/static/js/main.028e875a.js.LICENSE.txt",
     "static/media/hasta_luego.b2496bc7.jpg": "/micro-frontend-y/static/media/hasta_luego.b2496bc7.jpg"
   },
   "entrypoints": [
-    "static/js/main.d9e7bc14.js"
+    "static/js/main.028e875a.js"
   ]
 }
