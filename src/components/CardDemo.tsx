@@ -126,7 +126,10 @@ const CardDemo = (props: { basePath: string | undefined }) => {
             <IconButton aria-label="previous">
               {theme.direction === 'rtl' ? <SkipNextIcon /> : <SkipPreviousIcon />}
             </IconButton>
-            <IconButton aria-label="play/pause">
+            <IconButton
+              aria-label="play/pause"
+              href="https://open.spotify.com/album/26vh26M3hPs7BMelYSQ6iH?si=p0WL7xmcRMyHs_bswRhp9Q&dl_branch=1"
+            >
               <PlayArrowIcon className={playerClasses.playIcon} />
             </IconButton>
             <IconButton aria-label="next">
