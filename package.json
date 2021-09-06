@@ -30,7 +30,7 @@
     "build:micro": "react-app-rewired build",
     "format": "prettier --write src/**/*.ts src/**/*.tsx",
     "lint": "eslint src/**/*.ts src/**/*.tsx",
-    "predeploy": "npm run build:micro",
+    "predeploy": "npm run build",
     "deploy": "gh-pages -d build"
   },
   "eslintConfig": {

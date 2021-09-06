@@ -4,14 +4,21 @@ import App from './App';
 import { HashRouter } from 'react-router-dom';
 import { eventsToDispatch } from './events';
 
-export const render = (containerId: string, history: any, data: any) => {
+export interface MicrofrontendOptions {
+  basePath: string;
+  host: string;
+  history: any;
+  data: any;
+}
+
+export const render = (containerId: string, options: MicrofrontendOptions) => {
   const container = document.getElementById(containerId);
   if (!container) return;
   ReactDOM.render(
     <React.StrictMode>
       {/* HashRouter is used here in replacement of BrowserRouter because GitHub doesn't support browser history */}
       <HashRouter>
-        <App {...data} />
+        <App basePath={options.basePath} host={options.host} {...options.data} />
       </HashRouter>
     </React.StrictMode>,
     container
