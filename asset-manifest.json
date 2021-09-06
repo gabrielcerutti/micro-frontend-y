@@ -1,12 +1,20 @@
 {
   "files": {
-    "main.js": "/micro-frontend-y/static/js/main.1d04d147.js",
-    "main.js.map": "/micro-frontend-y/static/js/main.1d04d147.js.map",
+    "main.css": "/micro-frontend-y/static/css/main.d1a1a49b.chunk.css",
+    "main.js": "/micro-frontend-y/static/js/main.d2d5833f.chunk.js",
+    "main.js.map": "/micro-frontend-y/static/js/main.d2d5833f.chunk.js.map",
+    "runtime~main.js": "/micro-frontend-y/static/js/runtime~main.9c82fc95.js",
+    "runtime~main.js.map": "/micro-frontend-y/static/js/runtime~main.9c82fc95.js.map",
+    "static/js/2.7413ac7b.chunk.js": "/micro-frontend-y/static/js/2.7413ac7b.chunk.js",
+    "static/js/2.7413ac7b.chunk.js.map": "/micro-frontend-y/static/js/2.7413ac7b.chunk.js.map",
     "index.html": "/micro-frontend-y/index.html",
-    "static/js/main.1d04d147.js.LICENSE.txt": "/micro-frontend-y/static/js/main.1d04d147.js.LICENSE.txt",
+    "static/css/main.d1a1a49b.chunk.css.map": "/micro-frontend-y/static/css/main.d1a1a49b.chunk.css.map",
+    "static/js/main.d2d5833f.chunk.js.LICENSE.txt": "/micro-frontend-y/static/js/main.d2d5833f.chunk.js.LICENSE.txt",
     "static/media/hasta_luego.b2496bc7.jpg": "/micro-frontend-y/static/media/hasta_luego.b2496bc7.jpg"
   },
   "entrypoints": [
-    "static/js/main.1d04d147.js"
+    "static/js/runtime~main.9c82fc95.js",
+    "static/css/main.d1a1a49b.chunk.css",
+    "static/js/main.d2d5833f.chunk.js"
   ]
 }
