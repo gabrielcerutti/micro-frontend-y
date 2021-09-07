@@ -36,7 +36,7 @@ const HomePage = (props: { basePath: string | undefined }) => {
         and can be independently developed and deployed.
       </Typography>
       <Typography className={classes.textLeft} variant="h6" component="h6">
-        Try{' '}
+        Try the{' '}
         <NavLink className={classes.link} to="/this-page-does-not-exist">
           Not Found Page
         </NavLink>
