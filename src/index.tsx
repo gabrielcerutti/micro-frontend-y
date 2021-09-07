@@ -1,6 +1,6 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
-import { HashRouter } from 'react-router-dom';
+import { BrowserRouter } from 'react-router-dom';
 import App from './App';
 import './index.css';
 import { MicrofrontendOptions } from './microfrontend';
@@ -35,10 +35,12 @@ window.renderMicroAppY = (containerId: string, options: MicrofrontendOptions) =>
   if (!container) return;
   ReactDOM.render(
     <React.StrictMode>
-      {/* HashRouter is used here in replacement of BrowserRouter because GitHub doesn't support browser history */}
-      <HashRouter>
+      {/* Use HashRouter if your host doesn't support browser history (like GitHub Pages) */}
+      {/* Use BrowserRouter for a production app hosted in its own domain */}
+      {/* <HashRouter> */}
+      <BrowserRouter>
         <App basePath={options.basePath} host={options.host} {...options.data} />
-      </HashRouter>
+      </BrowserRouter>
     </React.StrictMode>,
     container
   );

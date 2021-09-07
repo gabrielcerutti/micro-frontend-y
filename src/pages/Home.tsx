@@ -4,6 +4,7 @@ import CardDemo from '../components/CardDemo';
 import PaperDemo from '../components/PaperDemo';
 import ButtonDemo from '../components/ButtonDemo';
 import ChipDemo from '../components/ChipDemo';
+import { NavLink } from 'react-router-dom';
 
 const useStyles = makeStyles(() => ({
   textLeft: {
@@ -33,6 +34,12 @@ const HomePage = (props: { basePath: string | undefined }) => {
           GitHub Pages
         </a>{' '}
         and can be independently developed and deployed.
+      </Typography>
+      <Typography className={classes.textLeft} variant="h6" component="h6">
+        Try{' '}
+        <NavLink className={classes.link} to="/this-page-does-not-exist">
+          Not Found Page
+        </NavLink>
       </Typography>
       <ChipDemo></ChipDemo>
       <CardDemo basePath={props.basePath}></CardDemo>

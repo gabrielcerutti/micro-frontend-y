@@ -1,6 +1,7 @@
 import { Route, Routes } from 'react-router-dom';
 import { makeStyles } from '@material-ui/core/styles';
 import HomePage from './pages/Home';
+import NotFoundPage from './pages/NotFound';
 
 const useStyles = makeStyles({
   root: {
@@ -22,6 +23,7 @@ function App(props: { basePath: string; host: string }) {
     <div className={classes.root}>
       <Routes basename={props.basePath}>
         <Route path="/" element={<HomePage basePath={basePath}></HomePage>} />
+        <Route path="/*" element={<NotFoundPage></NotFoundPage>} />
       </Routes>
     </div>
   );

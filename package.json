@@ -2,7 +2,7 @@
   "name": "micro-frontend-y",
   "version": "0.1.0",
   "private": true,
-  "homepage": "https://gabrielcerutti.github.io/micro-frontend-y",
+  "homepage": "https://gabrielcerutti.github.io",
   "dependencies": {
     "@material-ui/core": "^4.12.3",
     "@material-ui/icons": "^4.11.2",
@@ -26,7 +26,7 @@
     "build": "react-scripts build",
     "test": "react-scripts test",
     "eject": "react-scripts eject",
-    "start:micro": "set PORT=5000 && react-app-rewired start",
+    "start:micro": "set PORT=5000 && react-scripts start",
     "build:micro": "react-app-rewired build",
     "format": "prettier --write src/**/*.ts src/**/*.tsx",
     "lint": "eslint src/**/*.ts src/**/*.tsx",
