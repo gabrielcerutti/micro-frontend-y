@@ -28,7 +28,7 @@ const NotFoundPage = () => {
         <Typography variant="h5" component="h5">
           You should probably go back to the{' '}
           <NavLink className={classes.link} to="/">
-            Micro-Frontend Home
+            Microfrontend Home
           </NavLink>
         </Typography>
       </div>
