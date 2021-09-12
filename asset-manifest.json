@@ -1,24 +1,24 @@
 {
   "files": {
     "main.css": "/micro-frontend-y/static/css/main.d1a1a49b.chunk.css",
-    "main.js": "/micro-frontend-y/static/js/main.37acaf71.chunk.js",
-    "main.js.map": "/micro-frontend-y/static/js/main.37acaf71.chunk.js.map",
-    "runtime-main.js": "/micro-frontend-y/static/js/runtime-main.97eaa792.js",
-    "runtime-main.js.map": "/micro-frontend-y/static/js/runtime-main.97eaa792.js.map",
-    "static/js/2.0662da0f.chunk.js": "/micro-frontend-y/static/js/2.0662da0f.chunk.js",
-    "static/js/2.0662da0f.chunk.js.map": "/micro-frontend-y/static/js/2.0662da0f.chunk.js.map",
-    "static/js/3.1ccaa584.chunk.js": "/micro-frontend-y/static/js/3.1ccaa584.chunk.js",
-    "static/js/3.1ccaa584.chunk.js.map": "/micro-frontend-y/static/js/3.1ccaa584.chunk.js.map",
+    "main.js": "/micro-frontend-y/static/js/main.10528db4.chunk.js",
+    "main.js.map": "/micro-frontend-y/static/js/main.10528db4.chunk.js.map",
+    "runtime-main.js": "/micro-frontend-y/static/js/runtime-main.09964151.js",
+    "runtime-main.js.map": "/micro-frontend-y/static/js/runtime-main.09964151.js.map",
+    "static/js/2.a014359b.chunk.js": "/micro-frontend-y/static/js/2.a014359b.chunk.js",
+    "static/js/2.a014359b.chunk.js.map": "/micro-frontend-y/static/js/2.a014359b.chunk.js.map",
+    "static/js/3.693ab8cb.chunk.js": "/micro-frontend-y/static/js/3.693ab8cb.chunk.js",
+    "static/js/3.693ab8cb.chunk.js.map": "/micro-frontend-y/static/js/3.693ab8cb.chunk.js.map",
     "index.html": "/micro-frontend-y/index.html",
     "static/css/main.d1a1a49b.chunk.css.map": "/micro-frontend-y/static/css/main.d1a1a49b.chunk.css.map",
-    "static/js/2.0662da0f.chunk.js.LICENSE.txt": "/micro-frontend-y/static/js/2.0662da0f.chunk.js.LICENSE.txt",
+    "static/js/2.a014359b.chunk.js.LICENSE.txt": "/micro-frontend-y/static/js/2.a014359b.chunk.js.LICENSE.txt",
     "static/media/cancion_animal.ec3c93d4.jpg": "/micro-frontend-y/static/media/cancion_animal.ec3c93d4.jpg",
     "static/media/hasta_luego.b2496bc7.jpg": "/micro-frontend-y/static/media/hasta_luego.b2496bc7.jpg"
   },
   "entrypoints": [
-    "static/js/runtime-main.97eaa792.js",
-    "static/js/2.0662da0f.chunk.js",
+    "static/js/runtime-main.09964151.js",
+    "static/js/2.a014359b.chunk.js",
     "static/css/main.d1a1a49b.chunk.css",
-    "static/js/main.37acaf71.chunk.js"
+    "static/js/main.10528db4.chunk.js"
   ]
 }
