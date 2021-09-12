@@ -22,11 +22,11 @@ const ChipDemo = () => {
   const classes = useStyles();
 
   const [chipData, setChipData] = useState([
-    { key: 0, label: 'Angular' },
-    { key: 1, label: 'jQuery' },
-    { key: 2, label: 'Polymer' },
-    { key: 3, label: 'React' },
-    { key: 4, label: 'Vue.js' },
+    { key: 0, label: 'The Beach Boys' },
+    { key: 1, label: 'The Doors' },
+    { key: 2, label: 'The Rolling Stones' },
+    { key: 3, label: 'The Beatles' },
+    { key: 4, label: 'The Who' },
   ]);
 
   const handleDelete = (chipToDelete: any) => () => {
@@ -38,7 +38,7 @@ const ChipDemo = () => {
       {chipData.map((data) => {
         let icon;
 
-        if (data.label === 'React') {
+        if (data.label === 'The Beatles') {
           icon = <TagFacesIcon />;
         }
 
@@ -47,7 +47,7 @@ const ChipDemo = () => {
             <Chip
               icon={icon}
               label={data.label}
-              onDelete={data.label === 'React' ? undefined : handleDelete(data)}
+              onDelete={data.label === 'The Beatles' ? undefined : handleDelete(data)}
               className={classes.chip}
             />
           </li>

@@ -10,6 +10,7 @@ import SkipPreviousIcon from '@material-ui/icons/SkipPrevious';
 import PlayArrowIcon from '@material-ui/icons/PlayArrow';
 import SkipNextIcon from '@material-ui/icons/SkipNext';
 import hastaLuego from '../assets/images/hasta_luego.jpg';
+import cancionAnimal from '../assets/images/cancion_animal.jpg';
 
 const useStyles = makeStyles((theme) => ({
   root: {
@@ -41,10 +42,12 @@ const usePlayerStyles = makeStyles((theme) => ({
   root: {
     display: 'flex',
     marginTop: theme.spacing(1),
+    marginRight: theme.spacing(1),
   },
   details: {
     display: 'flex',
     flexDirection: 'column',
+    width: 200,
   },
   content: {
     flex: '1 0 auto',
@@ -53,10 +56,8 @@ const usePlayerStyles = makeStyles((theme) => ({
     width: 200,
   },
   controls: {
-    display: 'flex',
-    alignItems: 'center',
-    paddingLeft: theme.spacing(1),
-    paddingBottom: theme.spacing(1),
+    textAlign: 'center',
+    paddingBottom: theme.spacing(2),
   },
   playIcon: {
     height: 38,
@@ -99,13 +100,13 @@ const CardDemo = (props: { basePath: string | undefined }) => {
             Word of the Day
           </Typography>
           <Typography variant="h5" component="h2">
-            dic{bull}ta{bull}tor
+            de{bull}mo{bull}cra{bull}cy
           </Typography>
           <Typography className={classes.pos} color="textSecondary">
             noun
           </Typography>
           <Typography variant="body2" component="p">
-            a person who behaves in an autocratic way
+            control of an organization or group by the majority of its members
           </Typography>
         </CardContent>
         <CardActions>
@@ -141,6 +142,37 @@ const CardDemo = (props: { basePath: string | undefined }) => {
           className={playerClasses.cover}
           image={`${props.basePath !== undefined ? props.basePath : ''}${hastaLuego}`}
           title="Hasta Luego album cover"
+        />
+      </Card>
+      <Card className={playerClasses.root}>
+        <div className={playerClasses.details}>
+          <CardContent className={playerClasses.content}>
+            <Typography component="h5" variant="h5">
+              Canción Animal
+            </Typography>
+            <Typography variant="subtitle1" color="textSecondary">
+              Soda Stereo
+            </Typography>
+          </CardContent>
+          <div className={playerClasses.controls}>
+            <IconButton aria-label="previous">
+              {theme.direction === 'rtl' ? <SkipNextIcon /> : <SkipPreviousIcon />}
+            </IconButton>
+            <IconButton
+              aria-label="play/pause"
+              href="https://open.spotify.com/album/3GoSlKTNcVOp1ZxE5OOXeN?si=4h6oze_OTw2fPKW78om-DA&dl_branch=1"
+            >
+              <PlayArrowIcon className={playerClasses.playIcon} />
+            </IconButton>
+            <IconButton aria-label="next">
+              {theme.direction === 'rtl' ? <SkipPreviousIcon /> : <SkipNextIcon />}
+            </IconButton>
+          </div>
+        </div>
+        <CardMedia
+          className={playerClasses.cover}
+          image={`${props.basePath !== undefined ? props.basePath : ''}${cancionAnimal}`}
+          title="Cancion Animal album cover"
         />
       </Card>
     </div>

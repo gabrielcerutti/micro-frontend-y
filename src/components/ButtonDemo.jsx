@@ -12,10 +12,10 @@ const useStyles = makeStyles((theme) => ({
   root: {
     display: 'flex',
     alignItems: 'center',
-    margin: theme.spacing(1),
+    margin: theme.spacing(0.5),
   },
   wrapper: {
-    margin: theme.spacing(1),
+    margin: theme.spacing(0.5),
     position: 'relative',
   },
   buttonSuccess: {
@@ -89,7 +89,7 @@ export default function ButtonDemo() {
           disabled={loading}
           onClick={handleButtonClick}
         >
-          Eject
+          Click me
         </Button>
         {loading && <CircularProgress size={24} className={classes.buttonProgress} />}
       </div>

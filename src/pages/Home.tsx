@@ -5,6 +5,7 @@ import PaperDemo from '../components/PaperDemo';
 import ButtonDemo from '../components/ButtonDemo';
 import ChipDemo from '../components/ChipDemo';
 import { NavLink } from 'react-router-dom';
+import Grid from '@material-ui/core/Grid';
 
 const useStyles = makeStyles(() => ({
   textLeft: {
@@ -41,10 +42,17 @@ const HomePage = (props: { basePath: string | undefined }) => {
           Not Found Page
         </NavLink>
       </Typography>
-      <ChipDemo></ChipDemo>
+      <Grid container spacing={3}>
+        <Grid item xs={6}>
+          <ChipDemo></ChipDemo>
+        </Grid>
+        <Grid item xs={6}>
+          <ButtonDemo></ButtonDemo>
+        </Grid>
+      </Grid>
+
       <CardDemo basePath={props.basePath}></CardDemo>
       <PaperDemo></PaperDemo>
-      <ButtonDemo></ButtonDemo>
     </>
   );
 };

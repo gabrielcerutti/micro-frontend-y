@@ -19,9 +19,10 @@ const PaperDemo = () => {
 
   return (
     <div className={classes.root}>
+      <Paper elevation={1} />
+      <Paper elevation={2} />
       <Paper elevation={3} />
-      <Paper />
-      <Paper elevation={0} />
+      <Paper elevation={4} />
     </div>
   );
 };
